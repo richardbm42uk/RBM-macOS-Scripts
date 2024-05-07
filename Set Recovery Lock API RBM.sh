@@ -5,7 +5,7 @@
 # For internal use by Academia only
 
 ## Jamf Pro URL and Credentials
-URL="YOURJAMFURL"
+URL="https://YOURJAMF.jamfcloud.com"
 username="YOURJAMFUSERNAME"
 password="YOURJAMFPASSWORD"
 
@@ -15,7 +15,7 @@ password="YOURJAMFPASSWORD"
 ## Grab the serial for the Mac we're running on
 #serial=$(/usr/sbin/ioreg -rd1 -c IOPlatformExpertDevice | /usr/bin/awk -F'"' '/IOPlatformSerialNumber/{print $4}')
 
-## Password to set REcovery Lock to - leave blank to disable
+## Password to set Recovery Lock to - leave blank to disable
 #recoveryLock=""
 # OR
 #recoveryLock="SOMEPASSWORD"
