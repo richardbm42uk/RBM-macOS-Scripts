@@ -5471,7 +5471,7 @@ microsoftazurestorageexplorer)
 microsoftcompanyportal)
     name="Company Portal"
     type="pkg"
-    downloadURL="https://go.microsoft.com/fwlink/?linkid=869655"
+    downloadURL="https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/CompanyPortal-Installer.pkg"
     #appNewVersion=$(curl -fs https://macadmins.software/latest.xml | xpath '//latest/package[id="com.microsoft.intunecompanyportal.standalone"]/cfbundleshortversionstring' 2>/dev/null | sed -E 's/<cfbundleshortversionstring>([0-9.]*)<.*/\1/')
     appNewVersion=$(curl -fsIL "$downloadURL" | grep -i location: | grep -o "/CompanyPortal_.*pkg" | cut -d "_" -f 2 | cut -d "-" -f 1)
     expectedTeamID="UBF8T346G9"
