@@ -22,7 +22,7 @@ filesToUpload="/path/to/file1.pkg
 # Read Categories, Create Categories
 # Read Packages, Create Packages
 
-# 3. Populate the Jamf Pro URL and client credentials shown here
+# 3. Populate the Jamf Pro URL and client credentials from step 2 in the Setup variables here: section
 
 # 4. Populate a category to upload files to
 
